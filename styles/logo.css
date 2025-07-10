@@ -21,8 +21,10 @@
 
 /* header styles */
 
-header{
+.banner{
     background-image: url("../Assets/Hero-bg.png");
+    width: 100%;
+    height: 698px;
 }
 
 nav{
@@ -85,3 +87,43 @@ nav{
     font-size: 20px;
 }
  
+/* main styles */
+
+/* Action Styles */
+
+.action{
+    max-width: 1140px;
+    margin: 116px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.action-title{
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+}
+
+.action-description{
+    font-size: 24px;
+    font-weight: 400;
+    color: #25243273;
+}
+
+.action-btn{
+    background-color: #4E47FF;
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding: 12px 36px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.action-btn:hover{
+    background-color: rgba(5, 121, 238, 0.705);
+    font-size: 20px;
+}
