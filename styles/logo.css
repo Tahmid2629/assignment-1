@@ -3,13 +3,10 @@
 /* Shared Styles */
 
 
-.inter-logo{
+.inter-normal{
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
-  font-size: 34px;
-  color: #4E47FF;
-  font-weight: 900;
 }
 
 
@@ -35,6 +32,12 @@ nav{
     justify-content: space-between;
     margin:0px auto;
     
+}
+
+.nav-logo{
+    font-size: 34px;
+    color: #4E47FF;
+    font-weight: 900;
 }
 
 .nav-btn{
@@ -129,7 +132,7 @@ nav{
     font-size: 20px;
 }
 
-/*productive_user */
+/*productive_user styles*/
 
 .productive-user{
     max-width: 1140px;
@@ -156,6 +159,8 @@ nav{
 .info-value{
     font-size: 80px;
     font-weight: bold;
+    color: #4E47FF;
+    font-weight: 700;
     
 }
 
@@ -163,5 +168,54 @@ nav{
     font-size: 20px;
     font-weight: 400;
     color: #0000007d;
+    display: block;
+}
+
+/* newsletter styles */
+
+.newsletter{
+    max-width: 1140px;  
+    margin: 93px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.newsletter-title{
+    font-size: 97px;
+    font-weight: bold;  
+}
+
+input[type=text] , input[type=email] {
+    width: 497px;
+    height: 70px;
+    border: 0.01px solid rgba(0, 0, 0, 0.104);
+    border-radius: 10px;
+    background-color:#FFFFFF;
+    font-size: 20px;
+    padding: 20px 32px;
+    display: block;
+}
+
+input[type=submit]{
+    width: 567px;
+    height: 70px;
+    border: 0.01px solid rgba(0, 0, 0, 0.11);
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #4E47FF;
+    cursor: pointer;
+}
+
+textarea{
+    width: 497px;
+    height: 135px;
+    border: 0.01px solid rgba(0, 0, 0, 0.112);
+    border-radius: 10px;
+    background-color:#FFFFFF;
+    font-size: 20px;
+    padding: 20px 32px;
     display: block;
 }
