@@ -209,6 +209,11 @@ input[type=submit]{
     cursor: pointer;
 }
 
+input[type=submit]:hover{
+    background-color: rgba(5, 121, 238, 0.705);
+}
+
+
 textarea{
     width: 497px;
     height: 135px;
@@ -253,4 +258,9 @@ textarea{
 .bottom-info{
     text-decoration: none;
     color: #8987A1;
+}
+
+.bottom-info:hover{
+    font-size: 1.25em;
+    text-shadow: 0px 5px 10px rgba(5, 121, 238, 0.705);;
 }
