@@ -1,21 +1,15 @@
-
-
 /* Shared Styles */
-
 
 .inter-normal{
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
 }
-
-
 .raleway-normal{
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
 }
-
 /* header styles */
 
 .banner{
@@ -24,22 +18,18 @@
     height: 698px;
     margin: 0px auto;
 }
-
 nav{
     max-width: 1140px;
     align-items: center;
     display: flex;
     justify-content: space-between;
     margin:0px auto;
-    
 }
-
 .nav-logo{
     font-size: 34px;
     color: #4E47FF;
     font-weight: 900;
 }
-
 .nav-btn{
     background-color: #4E47FF;
     font-size: 16px;
@@ -50,7 +40,6 @@ nav{
     border-radius: 10px;
     cursor: pointer;
 }
-
 .nav-btn:hover{
     background-color: rgba(5, 121, 238, 0.705);
     font-size: 20px;
@@ -63,14 +52,12 @@ nav{
     justify-content: center;
    
 }
-
 .hero-description{
     font-size: 65px;
     font-weight: bold;
     text-align: center;
     margin-bottom: 37px;
 }
-
 .hero-btn{
     background-color: #4E47FF;
     font-size: 16px;
@@ -85,12 +72,10 @@ nav{
     justify-content: center;
     cursor: pointer;
 }
-
 .hero-btn:hover{
     background-color: rgba(5, 121, 238, 0.705);
     font-size: 20px;
 }
- 
 /* main styles */
 
 /* Action Styles */
@@ -98,7 +83,6 @@ nav{
 body{
     background-color: #f5f8ff;
 }
-
 .action{
     max-width: 1140px;
     margin: 116px auto;
@@ -106,20 +90,16 @@ body{
     align-items: center;
     justify-content: space-between;
 }
-
-
 .action-title{
     font-size: 42px;
     font-weight: bold;
     color: #252432;
 }
-
 .action-description{
     font-size: 24px;
     font-weight: 400;
     color: #25243273;
 }
-
 .action-btn{
     background-color: #4E47FF;
     font-size: 16px;
@@ -130,12 +110,10 @@ body{
     border-radius: 10px;
     cursor: pointer;
 }
-
 .action-btn:hover{
     background-color: rgba(5, 121, 238, 0.705);
     font-size: 20px;
 }
-
 /*productive_user styles*/
 
 .productive-user{
@@ -145,7 +123,6 @@ body{
     margin: 0px auto;
 
 }
-
 .productive-title{
     font-size: 38px;
     font-weight: bold;
@@ -153,13 +130,11 @@ body{
     padding-top:  52px; 
     
 }
-
 .productive-data{
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
-
 .info-value{
     font-size: 80px;
     font-weight: bold;
@@ -167,14 +142,12 @@ body{
     font-weight: 700;
     
 }
-
 .info-title{
     font-size: 20px;
     font-weight: 400;
     color: #0000007d;
     display: block;
 }
-
 /* Review Style */
 
 .reviews{
@@ -188,7 +161,6 @@ body{
     color: #252432;
     margin-bottom: 50px;
 }
-
 .icon{
     size: 20px;
 }
@@ -197,13 +169,11 @@ body{
     font-size: 24px;
     font-weight: 600;
 }
-
 .reviewer-text{
     font-size: 16px;
     font-weight: 400;
     
 }
-
 .card-section{
     display: flex;
     align-items: center;
@@ -225,19 +195,16 @@ body{
 .reviewer-image{
     border-radius: 50%;
 }
-
 .reviewer-name{
     font-size: 16px;
     font-weight: 600;
     color: #757575;
 }
-
 .review-date{
     font-size: 16px;
     font-weight: 400;
     color: #B3B3B3;
 }
-
 /* focus styles */
  
 .focus-container{
@@ -245,13 +212,10 @@ body{
     margin: 71px auto;
     text-align: center;
 }
-
 .focus-title{
     font-size: 60px;
     font-weight: bold;
-    
 }
-
 .focus-content{
     font-size: 16px;
     font-weight: 400;
@@ -262,7 +226,6 @@ body{
     justify-content: center;
     cursor: pointer;
 }
-
 .focus-btn{
     background-color: #4E47FF;
     font-size: 16px;
@@ -277,16 +240,13 @@ body{
     justify-content: center;
     cursor: pointer;
 }
-
 .focus-btn:hover{ 
     background-color: rgba(5, 121, 238, 0.705);
     font-size: 20px;
 }
-
 .focus-image{
     border-radius: 48px;
 }
-
 /* newsletter styles */
 
 .newsletter{
@@ -296,12 +256,10 @@ body{
     align-items: center;
     justify-content: space-between;
 }
-
 .newsletter-title{
     font-size: 97px;
     font-weight: bold;  
 }
-
 input[type=text] , input[type=email] {
     width: 497px;
     height: 70px;
@@ -312,7 +270,6 @@ input[type=text] , input[type=email] {
     padding: 20px 32px;
     display: block;
 }
-
 input[type=submit]{
     width: 567px;
     height: 70px;
@@ -324,12 +281,9 @@ input[type=submit]{
     background-color: #4E47FF;
     cursor: pointer;
 }
-
 input[type=submit]:hover{
     background-color: rgba(5, 121, 238, 0.705);
 }
-
-
 textarea{
     width: 497px;
     height: 135px;
@@ -340,7 +294,6 @@ textarea{
     padding: 20px 32px;
     display: block;
 }
-
 /* footer styles */
 
 .footer-container{
@@ -348,13 +301,11 @@ textarea{
     margin: 0px auto;
     text-align: center;
 }
-
 .footer-top{
     font-size: 100px;
     font-weight: 900;
     color: #4E47FF;
 }
-
 .footer-description{
     color: #8987A1;
     font-size: 16px;
@@ -363,19 +314,16 @@ textarea{
     margin-top: 20px;
     margin-bottom: 30px;
 }
-
 .footer-bottom{
     margin-top: 0px;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
-
 .bottom-info{
     text-decoration: none;
     color: #8987A1;
 }
-
 .bottom-info:hover{
     font-size: 1.25em;
     text-shadow: 0px 5px 10px rgba(5, 121, 238, 0.705);;
