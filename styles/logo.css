@@ -211,6 +211,7 @@ body{
     max-width: 1140px;
     margin: 71px auto;
     text-align: center;
+    justify-content: center;
 }
 .focus-title{
     font-size: 60px;
