@@ -95,6 +95,10 @@ nav{
 
 /* Action Styles */
 
+body{
+    background-color: #f5f8ff;
+}
+
 .action{
     max-width: 1140px;
     margin: 116px auto;
@@ -207,9 +211,11 @@ nav{
 }
 .card{
     text-align: left;
-    border: 0.01px solid rgba(0, 0, 0, 0.11);
+    border: none;
     border-radius: 10px;
     padding: 24px;
+    background-color: white;
+    box-shadow: 0px 10px 10px rgba(128, 128, 128, 0.434);
 }
 .reviewer-info{
     display: flex;
@@ -230,6 +236,55 @@ nav{
     font-size: 16px;
     font-weight: 400;
     color: #B3B3B3;
+}
+
+/* focus styles */
+ 
+.focus-container{
+    max-width: 1140px;
+    margin: 71px auto;
+    text-align: center;
+}
+
+.focus-title{
+    font-size: 60px;
+    font-weight: bold;
+    
+}
+
+.focus-content{
+    font-size: 16px;
+    font-weight: 400;
+    margin: 20px auto;
+    color: #00000073;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.focus-btn{
+    background-color: #4E47FF;
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding: 12px 36px;
+    border: none;
+    border-radius: 10px;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.focus-btn:hover{ 
+    background-color: rgba(5, 121, 238, 0.705);
+    font-size: 20px;
+}
+
+.focus-image{
+    border-radius: 48px;
 }
 
 /* newsletter styles */
